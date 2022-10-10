@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="tum tesleri calistirma" verbose="3" parallel="classes" thread-count="3">
+    <test name="regression">
+        <packages>
+            <package name="tests.day17"/>
+        </packages>
+    </test>
+</suite>
